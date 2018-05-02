@@ -4,5 +4,5 @@ export interface Card {
     holderName: string;
     expiryMonth: string;
     expiryYear: string;
-    generationTime: string;
+    generationTime: Date;
 }

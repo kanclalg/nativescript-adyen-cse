@@ -17,7 +17,7 @@ const data: Card = {
   cvc: '737',
   expiryMonth: '08',
   expiryYear: '2018',
-  generationTime: new Date().toString(),
+  generationTime: new Date(),
   holderName: 'holderName',
   number: '4111111111111111'
 };

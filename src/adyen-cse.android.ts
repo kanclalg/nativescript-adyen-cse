@@ -11,7 +11,7 @@ export class AdyenCse extends AdyenCseCommon {
       .setHolderName(card.holderName)
       .setExpiryYear(card.expiryYear)
       .setExpiryMonth(card.expiryMonth)
-      .setGenerationTime(new java.util.Date(card.generationTime))
+      .setGenerationTime(new java.util.Date(card.generationTime.toString()))
       .build();
 
     return adyenCard.serialize(publicKey);
