@@ -11,5 +11,5 @@ dependencies {
 }
 
 dependencies {
-	compile 'com.adyen.cse:adyen-cse:1.0.5'
+	implementation 'com.adyen.cse:adyen-cse:1.0.5'
 }

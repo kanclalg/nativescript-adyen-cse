@@ -1,6 +1,6 @@
 {
     "name": "nativescript-adyen-cse",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Adyen NativeScript client-side encryption plugin",
     "main": "adyen-cse",
     "typings": "index.d.ts",
